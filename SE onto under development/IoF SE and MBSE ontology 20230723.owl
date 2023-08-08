@@ -23,6 +23,14 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#IOF_SE_definition -->
+
+    <AnnotationProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#IOF_SE_definition">
+        <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IoF_SE_defiition"/>
+    </AnnotationProperty>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#IoF_SE_defiition -->
 
     <AnnotationProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#IoF_SE_defiition"/>
@@ -379,6 +387,14 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#represent -->
 
     <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#represent">
+        <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IoF_SE"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#specify -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#specify">
         <rdfs:subPropertyOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#IoF_SE"/>
     </ObjectProperty>
     
